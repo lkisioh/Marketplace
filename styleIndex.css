@@ -1,0 +1,55 @@
+header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.buscador{
+    width: 70vh;
+    height: 50px;
+    text-align: center;
+}
+.ofertas{
+    text-align: center;
+    align-items: center;
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: max-content;
+    border-radius: 150px;
+    padding: 15px;
+}
+.notebook{
+    height: 250px;
+    width: 250px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.notebook:hover{
+    transform: scale(1.1); /* agranda todo el contenedor */
+}
+.imagen{
+    object-fit: cover; /* para que no se deforme la imagen */
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    display: block; /* para evitar espacios debajo de la imagen */
+}
+#ofertas{
+    color: rebeccapurple;
+    background-color: hotpink;
+}
+#noofertas{
+    color: burlywood;
+    background-color: lightcoral;
+}
+body{
+    text-align: center;
+}
+h1 h2 h3{
+    display: block;
+}
